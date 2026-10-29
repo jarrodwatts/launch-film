@@ -1,0 +1,6 @@
+# Only for the music hunt and reference analysis: npm run setup -- --extras
+# (music:fetch, refs). The film itself never needs these.
+shazamio
+faster-whisper
+yt-dlp
+matplotlib

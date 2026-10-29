@@ -1,0 +1,28 @@
+{
+ "track": "The working track (a major-label song). Working pick; needs a licence or a swap before posting. Two Epidemic tracks are the licensable options.",
+ "file": "music/working-track.mp3",
+ "drop_file_s": 83.49,
+ "beat_s": 0.3454,
+ "sections_beats": {
+  "energy": [
+   -16,
+   -8
+  ],
+  "quiet": [
+   -8,
+   0
+  ],
+  "drop": [
+   0,
+   56
+  ],
+  "break": [
+   56,
+   60
+  ],
+  "redrop": [
+   60,
+   72
+  ]
+ }
+}

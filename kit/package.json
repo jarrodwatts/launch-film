@@ -1,0 +1,53 @@
+{
+  "name": "launch-film",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "doctor": "bash scripts/doctor.sh",
+    "studio": "remotion studio",
+    "check": "bash scripts/check.sh",
+    "frames": "tsx scripts/frames.ts",
+    "where": "tsx scripts/where.ts",
+    "scene": "bash scripts/scene.sh",
+    "stills": "bash scripts/stills.sh",
+    "blurstill": "bash scripts/blurstill.sh",
+    "sheets": "bash scripts/sheets.sh",
+    "assets": "remotion still Assets out/assets.png --log=error",
+    "mix": "tsx scripts/cues.ts && scripts/py scripts/mix.py",
+    "audio:check": "tsx scripts/cues.ts && scripts/py scripts/check_audio.py",
+    "sfx:stats": "scripts/py scripts/sfx_stats.py public/sfx",
+    "music:grid": "scripts/py scripts/music_grid.py",
+    "draft": "bash scripts/draft.sh",
+    "final": "bash scripts/final.sh",
+    "clearance": "tsx scripts/clearance.ts",
+    "refs": "scripts/py scripts/music/refpack.py",
+    "music:fetch": "bash scripts/music/fetch.sh",
+    "music:scan": "scripts/py scripts/music/scan.py",
+    "music:audition": "scripts/py scripts/music/audition.py",
+    "music:seams": "scripts/py scripts/music/seams.py",
+    "people": "scripts/py scripts/people.py",
+    "blender:install": "bash 3d/install-blender.sh",
+    "shot": "bash 3d/render-shot.sh",
+    "shot:debug": "scripts/py 3d/debug.py",
+    "shot:compare": "scripts/py 3d/compare.py",
+    "lane": "bash scripts/lane.sh",
+    "merge-lane": "bash scripts/merge-lane.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

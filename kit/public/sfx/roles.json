@@ -1,0 +1,18 @@
+{
+ "whoosh": ["whoosh_1", "whoosh_2", "whoosh_3", "whoosh_4"],
+ "whoosh_heavy": ["whoosh_heavy"],
+ "air": ["air"],
+ "pop": ["pop_1", "pop_2", "pop_3"],
+ "tick": ["tick"],
+ "click": ["click"],
+ "button": ["button"],
+ "switch": ["switch"],
+ "typing": ["typing"],
+ "shine": ["shine"],
+ "impact": ["impact"],
+ "boom": ["boom"],
+ "riser": ["riser"],
+ "ding": ["ding"],
+ "notify": ["notify"],
+ "cash": ["cash"]
+}

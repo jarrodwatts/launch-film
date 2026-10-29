@@ -1,0 +1,13 @@
+{
+ "length": 16,
+ "land": 0,
+ "rows": [2, 2.5, 3, 3.5],
+ "cursor": 5,
+ "tap": 6.5,
+ "count": [7, 9],
+ "spin": 7,
+ "done": 9.5,
+ "orbit": 10,
+ "hold": 12,
+ "out": 15
+}

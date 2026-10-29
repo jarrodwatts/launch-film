@@ -1,0 +1,20 @@
+{
+  "name": "launch-film",
+  "displayName": "Launch Film",
+  "version": "0.1.0",
+  "description": "Make a premium, top-studio-grade product launch film for any product: the method as skills, plus a Remotion starter kit that renders out of the box.",
+  "author": {
+    "name": "Jarrod Watts"
+  },
+  "homepage": "https://github.com/jarrodwatts/launch-film",
+  "repository": "https://github.com/jarrodwatts/launch-film",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "remotion",
+    "launch-film",
+    "motion-design",
+    "sound-design",
+    "blender"
+  ]
+}

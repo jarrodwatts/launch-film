@@ -1,0 +1,39 @@
+{
+ "_about": "A demo character for the kit: a green pebble with a fold on top and two eyes. Replace every path and colour with your brand's own SVG (copy path strings and hex stops exactly, never redraw). Units are the SVG's own; 'scale' turns them into metres. See 3d/README.md for each field.",
+ "origin": [106, 108],
+ "scale": 0.0135,
+ "base": [106, 172],
+ "body": {
+  "path": "M 40 120 c 0 -45 30 -80 70 -80 c 40 0 60 30 60 70 a 62 52 0 0 1 -64 62 c -42 0 -66 -22 -66 -52 z",
+  "centre": [106, 112],
+  "front": 46,
+  "back": 36,
+  "material": {
+   "gradient": {
+    "from": [50, 60], "to": [165, 170],
+    "stops": [[0, "#1fae8c"], [0.5, "#5fd3b4"], [1, "#b5f0dc"]],
+    "blush": {"at": [160, 160], "radius": 90, "colour": "#fff1d6", "strength": 0.8}
+   },
+   "roughness": 0.5, "subsurface": 0.04, "coat": 0.12
+  }
+ },
+ "features": [
+  {
+   "name": "fold",
+   "path": "m 92 56 q 26 -12 52 0 q 6 10 -2 20 q -22 -12 -50 -20 z",
+   "front": 12, "back": 2, "rings": 12, "lift": 1.2,
+   "material": {"gradient": {"from": [92, 50], "to": [144, 76], "stops": [[0, "#139078"], [1, "#2bb596"]]}, "roughness": 0.45}
+  }
+ ],
+ "eyes": [
+  {"at": [90, 110], "r": [7, 11], "depth": 3.2, "material": {"colour": "#10201c", "roughness": 0.35, "coat": 0.25}},
+  {"at": [124, 107], "r": [7, 11], "depth": 3.2, "material": {"colour": "#10201c", "roughness": 0.35, "coat": 0.25}}
+ ],
+ "camera": {"base": 6.2, "hop": 8.8, "fly_end": 0.6, "height": 0.05},
+ "look": {
+  "lens": 85,
+  "exposure": 0.35,
+  "world": 0.35,
+  "lights": {"key": {"energy": 230}, "fill": {"energy": 60}, "rim": {"energy": 350}}
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "launch-film",
+  "description": "One plugin: launch-film, the method and starter kit for premium product launch films made with code.",
+  "owner": { "name": "Jarrod Watts" },
+  "plugins": [
+    {
+      "name": "launch-film",
+      "source": "./",
+      "description": "Make a premium, top-studio-grade product launch film for any product: the method as skills, plus a Remotion starter kit that renders out of the box."
+    }
+  ]
+}

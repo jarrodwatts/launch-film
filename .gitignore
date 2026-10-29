@@ -1,0 +1,11 @@
+node_modules
+kit/node_modules
+kit/.tools
+kit/out
+kit/public/mix.wav
+kit/public/music/*.wav
+kit/public/sfx/*.wav
+kit/public/3d/*/
+kit/public/3d/manifest.json
+*.mov
+__pycache__

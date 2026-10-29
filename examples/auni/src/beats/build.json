@@ -1,0 +1,16 @@
+{
+ "length": 20,
+ "hero": 0,
+ "typed": 6,
+ "posted": 6.5,
+ "takes": [
+  12,
+  13.5,
+  14,
+  14.5,
+  15
+ ],
+ "wall": 15.5,
+ "everyone": 17,
+ "shake": 18
+}

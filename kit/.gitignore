@@ -1,0 +1,15 @@
+# No trailing slashes on node_modules and .tools: a lane symlinks them, and a symlink is a file,
+# which "node_modules/" would not match (a lane once committed its link and the merge deleted the real folder).
+node_modules
+.tools
+.lane-owned
+out/
+public/mix.wav
+# Songs and SFX packs are licensed: they never go in git. Bring your own (see the READMEs).
+public/music/*
+!public/music/README.md
+public/sfx/*
+!public/sfx/README.md
+!public/sfx/roles.json
+!public/sfx/stats.json
+*.mov
